@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="서울숲 투어">
+  <rect width="512" height="512" rx="120" fill="#2D5F3F"/>
+  <polygon points="256,116 196,220 316,220" fill="#F5F1E8"/>
+  <polygon points="256,180 176,290 336,290" fill="#F5F1E8"/>
+  <polygon points="256,244 156,360 356,360" fill="#F5F1E8"/>
+  <rect x="240" y="360" width="32" height="40" fill="#F5F1E8"/>
+</svg>
