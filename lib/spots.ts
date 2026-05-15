@@ -57,7 +57,7 @@ export const spots: Spot[] = [
       composition: "수면에 비친 사슴 조각상과 실물을 같이 담아 좌우대칭으로",
       background: "수면 너머의 나무 라인을 살리세요",
     },
-    relatedSpotIds: ["deer-yard", "ginkgo-path"],
+    relatedSpotIds: ["deer-yard", "ginkgo-path", "viewing-bridge"],
   },
   {
     id: "ginkgo-path",
@@ -122,7 +122,7 @@ export const spots: Spot[] = [
 2005년 서울숲 개원 당시부터 운영된 구역으로, 시민들이 사슴 먹이를 가까이에서 줄 수 있도록 **사슴 먹이주기 체험**도 운영합니다 (유료, 매표소 안내).
 
 > 사슴은 야생동물입니다. 갑작스러운 접근이나 큰 소리는 피해주세요.`,
-    relatedSpotIds: ["mirror-pond", "family-yard"],
+    relatedSpotIds: ["mirror-pond", "family-yard", "butterfly-garden"],
   },
   {
     id: "wind-hill",
@@ -164,7 +164,7 @@ export const spots: Spot[] = [
 
 - **운영 시간**: 10:00 ~ 17:00 (월요일 휴관)
 - **입장료**: 무료`,
-    relatedSpotIds: ["family-yard", "deer-yard"],
+    relatedSpotIds: ["family-yard", "deer-yard", "butterfly-garden"],
   },
   {
     id: "family-yard",
@@ -182,7 +182,7 @@ export const spots: Spot[] = [
 야외 콘서트·플리마켓 등 이벤트가 자주 열리니, 방문 전 [서울숲 공식 캘린더](https://parks.seoul.go.kr)를 확인하세요.
 
 - 그늘이 적어 한여름에는 텐트/파라솔 필수 (1인용은 허용)`,
-    relatedSpotIds: ["deer-yard", "insect-botanic"],
+    relatedSpotIds: ["deer-yard", "insect-botanic", "seoul-forest-plaza", "forest-playground"],
   },
   {
     id: "rainbow-eevee",
@@ -226,7 +226,7 @@ export const spots: Spot[] = [
       pokemon: "라프라스",
       eventEndDate: POKEMON_EVENT_END,
     },
-    relatedSpotIds: ["wind-hill", "pokemon-snorlax"],
+    relatedSpotIds: ["wind-hill", "pokemon-snorlax", "viewing-bridge"],
   },
   {
     id: "pokemon-vulpix",
@@ -309,5 +309,155 @@ export const spots: Spot[] = [
       composition: "작품 안내판과 식재 디테일을 함께 한 프레임에",
     },
     relatedSpotIds: ["wind-hill", "ginkgo-path"],
+  },
+  {
+    id: "seoul-forest-plaza",
+    name: "서울숲 광장·야외무대",
+    nameEn: "Seoul Forest Plaza & Stage",
+    type: "guide",
+    lat: 37.5445,
+    lng: 127.0388,
+    shortDescription:
+      "서울숲 A구역 중심. 야외 공연·플리마켓이 열리는 대형 광장.",
+    fullDescription: `## 서울숲 광장·야외무대
+
+서울숲 정문에서 직진하면 만나는 **약 6,900㎡** 규모의 중앙 광장. 과거 경마장 주로의 타원형 흔적이 남아 있습니다.
+
+광장 한쪽의 **야외무대(4,000㎡)**에서는 주말 콘서트, 시민 페스티벌 등이 열리고, 행사 없는 날에는 넓은 잔디밭에서 피크닉을 즐길 수 있습니다.
+
+방문자 센터와 매점도 이 구역에 있어 투어 시작 전 안내 지도를 챙기기 좋습니다.`,
+    relatedSpotIds: ["family-yard", "forest-playground"],
+  },
+  {
+    id: "forest-playground",
+    name: "숲속 놀이터·물놀이터",
+    nameEn: "Forest Playground",
+    type: "guide",
+    lat: 37.5441,
+    lng: 127.0382,
+    shortDescription:
+      "어린이 동반 필수. 자연 소재 놀이터와 여름 물놀이장.",
+    fullDescription: `## 숲속 놀이터·물놀이터
+
+서울숲 광장 서쪽에 있는 **어린이 놀이 공간**. 자연 소재로 만든 놀이기구와 모래밭이 있어 가족 단위 방문객에게 인기입니다.
+
+여름철(6~8월)에는 바로 옆 **물놀이터**가 개방되어 아이들이 물놀이를 즐길 수 있습니다.
+
+- 물놀이터 운영: 6~8월, 10:00 ~ 17:00
+- 그늘이 적으니 모자·양산 필수`,
+    relatedSpotIds: ["family-yard", "seoul-forest-plaza"],
+  },
+  {
+    id: "butterfly-garden",
+    name: "나비정원",
+    nameEn: "Butterfly Garden",
+    type: "guide",
+    lat: 37.5435,
+    lng: 127.0415,
+    shortDescription:
+      "유리 온실 속 살아있는 나비. 계절별 나비 관찰 가능.",
+    fullDescription: `## 나비정원
+
+자연체험학습원(C구역) 내 구 뚝섬정수장 구조물을 재활용하여 만든 **유리 온실**. 살아있는 나비를 가까이에서 관찰할 수 있습니다.
+
+겨울에는 기온 유지를 위해 일시 휴관할 수 있으니, 방문 전 확인을 권합니다. 곤충식물원과 함께 둘러보면 약 40분 코스입니다.
+
+- **운영 시간**: 10:00 ~ 16:30 (월요일 휴관)
+- **입장료**: 무료`,
+    relatedSpotIds: ["insect-botanic", "ttukdo-waterworks"],
+  },
+  {
+    id: "ttukdo-waterworks",
+    name: "뚝도수원지 제1정수장",
+    nameEn: "Ttukdo Waterworks",
+    type: "guide",
+    lat: 37.5433,
+    lng: 127.042,
+    shortDescription:
+      "1908년 건립 근대 산업유산. 서울시 유형문화유산 제72호.",
+    fullDescription: `## 뚝도수원지 제1정수장
+
+1908년 대한제국 시기 건립된 **서울 최초의 수돗물 정수 시설**. 서울시 유형문화유산 제72호로 지정되어 있습니다.
+
+노출 콘크리트 송수실과 완속여과지가 남아 있으며, 근대 산업사를 보여주는 귀중한 건축물입니다. 서울숲 조성 시 정수장 구조물을 재활용하여 공원에 녹여낸 것이 특징입니다.
+
+> 내부 진입은 제한되지만 외관과 안내판을 통해 역사를 살펴볼 수 있습니다.`,
+    relatedSpotIds: ["butterfly-garden", "insect-botanic"],
+  },
+  {
+    id: "wetland-eco",
+    name: "습지생태원",
+    nameEn: "Wetland Ecological Park",
+    type: "guide",
+    lat: 37.5458,
+    lng: 127.0425,
+    shortDescription:
+      "야생 조류 관찰대와 습지 초화원. 서울숲의 숨은 힐링 공간.",
+    fullDescription: `## 습지생태원
+
+서울숲 D구역, **약 70,000㎡** 규모의 습지 생태 공간. 유수지의 기존 자연환경을 활용하여 조성했습니다.
+
+**조류 관찰대**에서는 왜가리, 백로 등 야생 조류를 관찰할 수 있고, 환경놀이터와 야외 자연교실도 있습니다. 위치가 구석진 편이라 조용하게 산책하기 좋은 숨은 명소입니다.
+
+- 습지초화원의 꽃은 5~6월이 가장 아름답습니다`,
+    relatedSpotIds: ["viewing-bridge", "wind-hill"],
+  },
+  {
+    id: "viewing-bridge",
+    name: "보행 전망교",
+    nameEn: "Pedestrian Viewing Bridge",
+    type: "photo",
+    lat: 37.5465,
+    lng: 127.0412,
+    shortDescription:
+      "한강·중랑천 합류부 조망. 노을 사진 명소.",
+    fullDescription: `## 보행 전망교
+
+서울숲 남서측, 한강수변공원(E구역)으로 이어지는 **보행 전용 다리**. 한강과 중랑천이 합류하는 지점을 한눈에 조망할 수 있습니다.
+
+이곳에서 바라보는 **일몰 노을**이 특히 아름다워 사진 동호회 출사 장소로도 유명합니다. 다리 위에서 탁 트인 강변 전경을 담을 수 있습니다.`,
+    photoTips: {
+      bestTime: "일몰 30분 전 ~ 일몰 직후 (매직아워)",
+      composition: "다리 난간을 리딩라인으로 활용, 강 합류부와 노을을 한 프레임에",
+      background: "응봉산 뒤로 지는 노을과 강물 반영",
+    },
+    relatedSpotIds: ["wetland-eco", "pokemon-lapras"],
+  },
+  {
+    id: "skate-park",
+    name: "스케이트파크",
+    nameEn: "Skate Park",
+    type: "guide",
+    lat: 37.5439,
+    lng: 127.0375,
+    shortDescription:
+      "서울숲 내 야외 스케이트보드장. 보드·인라인 이용 가능.",
+    fullDescription: `## 스케이트파크
+
+서울숲 광장 구역(A구역) 서쪽에 위치한 **야외 스케이트보드 전용 공간**. 하프파이프와 레일 등 기본적인 시설을 갖추고 있습니다.
+
+보드·인라인 스케이트를 즐기는 청소년·청년층이 주로 이용하며, 장비를 가져오면 무료로 이용할 수 있습니다.
+
+- 야간 조명 없으므로 해 지기 전까지 이용 권장
+- 보호 장구(헬멧 등) 착용 권장`,
+    relatedSpotIds: ["seoul-forest-plaza", "family-yard"],
+  },
+  {
+    id: "community-garden",
+    name: "갤러리정원·꿀벌정원",
+    nameEn: "Gallery & Bee Garden",
+    type: "garden",
+    lat: 37.5437,
+    lng: 127.0418,
+    shortDescription:
+      "시민 참여 정원과 도시 양봉 체험. 자연체험학습원 내 위치.",
+    fullDescription: `## 갤러리정원·꿀벌정원
+
+자연체험학습원(C구역) 내에 조성된 **시민 참여 정원**. 갤러리정원은 계절마다 식재가 바뀌며, 꿀벌정원에서는 **도시 양봉**을 관찰할 수 있습니다.
+
+서울숲 내에서 정원 문화를 가장 가까이 체험할 수 있는 공간으로, 2026 서울국제정원박람회와 함께 둘러보면 좋습니다.
+
+- 꿀벌정원은 벌이 활발한 봄~가을 오전이 관찰 적기`,
+    relatedSpotIds: ["garden-award-2026", "butterfly-garden"],
   },
 ];
